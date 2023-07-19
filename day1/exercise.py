@@ -14,10 +14,14 @@ print(c.replace("-", ""))
 x = "hello"
 y = "python"
 print(x + "! " + y)
-'''
+
 
 color = ["red", "orange", "yellow", "green", "blue", "purple", "black", "white"]
 color.remove("green")
 print(color)
 color.insert(1, "pink")
 print(color)
+'''
+
+a = {"A": 90, "B": 80, "C": 70, "D": 60}
+print(a["B"])

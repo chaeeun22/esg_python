@@ -31,7 +31,7 @@ a.append(4)
 a.extend(["a", "b", "c"])
 print(a)
 
-'''
+
 
 a = [3, 7, 1, 9, 8]
 a.sort()
@@ -41,3 +41,18 @@ a.remove(3)
 a.pop()
 print(a)
 
+'''
+
+my_dictionary = {"name": "김채은"}
+print(my_dictionary)
+my_dictionary["age"] = 22
+print(my_dictionary)
+my_dictionary["favorite food"] = [{"name": "pizza", "is_healthy": False}]
+print(my_dictionary)
+print(my_dictionary["name"])
+print(my_dictionary.get("adress", "Unknown"))
+
+for key, value in my_dictionary.items():
+    print("key:", key)
+    print("value:", value)
+    
