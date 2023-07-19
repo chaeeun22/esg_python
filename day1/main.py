@@ -22,3 +22,4 @@ c = "Life is too short"
 print(c.replace("short", "long"))
 print(c.split())
 print(c.split("s"))
+print(c.count("i"))
