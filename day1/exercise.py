@@ -34,6 +34,6 @@ set2 = {4, 5, 6, 7, 8, 9}
 print(set1 & set2)
 print(set1 - set2)
 
-a = set([1, 2, 3, 4, 4, 4, 9, 11, 11, 14])
+a = list(set([1, 2, 3, 4, 4, 4, 9, 11, 11, 14]))
 print(a)
 

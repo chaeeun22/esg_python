@@ -54,10 +54,46 @@ print(my_dictionary.get("adress", "Unknown"))
 for key, value in my_dictionary.items():
     print("key:", key)
     print("value:", value)
-'''
+
 
 set1 = {1, 2, 3, 4, 5}
 set2 = {4, 5, 6, 7}
 
 print(set1 & set2)
 print(set1 | set2)
+
+
+a = "student"
+if a == "student":
+    print("hello")
+else:
+    print("nope")
+
+
+score = int(input("점수가 몇점인가요? "))
+
+if score >= 90 and score <= 100:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+elif score >= 60:
+    print("D")
+else:
+    print("F")
+
+
+a = ["A", "B", "C", "D"]
+
+for i in range(len(a)):
+    print(a[i])
+
+'''
+def say_hello(name):
+    print("hello", name)
+
+say_hello("채은")
+
+
+
