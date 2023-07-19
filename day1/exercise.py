@@ -21,7 +21,19 @@ color.remove("green")
 print(color)
 color.insert(1, "pink")
 print(color)
-'''
+
 
 a = {"A": 90, "B": 80, "C": 70, "D": 60}
 print(a["B"])
+
+'''
+
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {4, 5, 6, 7, 8, 9}
+
+print(set1 & set2)
+print(set1 - set2)
+
+a = set([1, 2, 3, 4, 4, 4, 9, 11, 11, 14])
+print(a)
+

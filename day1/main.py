@@ -41,7 +41,6 @@ a.remove(3)
 a.pop()
 print(a)
 
-'''
 
 my_dictionary = {"name": "김채은"}
 print(my_dictionary)
@@ -55,4 +54,10 @@ print(my_dictionary.get("adress", "Unknown"))
 for key, value in my_dictionary.items():
     print("key:", key)
     print("value:", value)
-    
+'''
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7}
+
+print(set1 & set2)
+print(set1 | set2)
