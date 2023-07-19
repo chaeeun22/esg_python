@@ -1,3 +1,4 @@
+'''
 random_list = [3, 3.9, "python", True]
 
 print (random_list)
@@ -22,4 +23,21 @@ c = "Life is too short"
 print(c.replace("short", "long"))
 print(c.split())
 print(c.split("s"))
-print(c.count("i"))
+
+
+a = [1, 2, 3]
+del(a[1])
+a.append(4)
+a.extend(["a", "b", "c"])
+print(a)
+
+'''
+
+a = [3, 7, 1, 9, 8]
+a.sort()
+a.reverse()
+a.insert(1,2)
+a.remove(3)
+a.pop()
+print(a)
+

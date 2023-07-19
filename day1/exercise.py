@@ -1,3 +1,4 @@
+'''
 a = "Dog is love"
 print(a)
 print(a[7:])
@@ -13,3 +14,10 @@ print(c.replace("-", ""))
 x = "hello"
 y = "python"
 print(x + "! " + y)
+'''
+
+color = ["red", "orange", "yellow", "green", "blue", "purple", "black", "white"]
+color.remove("green")
+print(color)
+color.insert(1, "pink")
+print(color)
