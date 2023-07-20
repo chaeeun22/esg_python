@@ -89,11 +89,43 @@ a = ["A", "B", "C", "D"]
 for i in range(len(a)):
     print(a[i])
 
-'''
+
 def say_hello(name):
     print("hello", name)
 
 say_hello("채은")
 
+print(abs(-3.5))
+
+a = 3
+print(id(a))
 
 
+def positive(x):
+    return x > 0
+b = [1, 4, -7, 2, 9, -5]
+print(list(filter(positive, b)))
+
+
+
+colors = ["white", "red", "brown", "blue"]
+names = ["Lukas", "Mike", "Yoon", "Lee"]
+
+for i, name in enumerate(names):
+    print(name, f"likes color {colors[i]}")
+
+a = [2, 55, 24, 78, 157]
+print(max(a))
+print(min(a))
+
+print(type("abc"))
+
+import os
+print(os.getcwd())
+print(os.name)
+
+'''
+
+import time
+
+print(time.time())
